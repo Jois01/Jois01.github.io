@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pati Tedung</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- font end -->
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- bootstrap end -->
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- style -->
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top" style="background-color: rgb(0, 83, 127)">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="./gambar/js.png" alt="Logo" width="40" class="d-inline-block align-text-top" /> -->
+          Pati<span style="color: rgb(229, 154, 24)">Tedung</span></a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#jenis">Jenis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#harga">Harga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#kontak">Kontak</a>
+            </li>
+            <div class="d-flex" role="search">
+              <a class="btn btn-outline-light" href="./login/login.html">login</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Content -->
+    <section class="home" id="home">
+      <div class="row fs-5">
+        <div class="col-md-6">
+          <h1>Pati <span>Tedung</span></h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio mollitia animi possimus tenetur veritatis perspiciatis esse maiores enim, eos fugiat?</p>
+        </div>
+        <div class="col-md-6">
+          <div class="home-img">
+            <img src="gambar/pabrik.jpg" width="400px" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jenis yang di jual -->
+    <section id="jenis">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col mb-3">
+            <h2>Jenis</h2>
+            <br />
+            <br />
+          </div>
+          <div class="row justify-content-center mb-3">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="gambar/katik pajeng.jpg" class="card-img-top" alt="project 1" />
+                <div class="card-body">
+                  <h5 class="card-title">Katik Pajeng</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="detailKatik.html" class="btn btn-primary">Lihat</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="gambar/kerangka.jpg" class="card-img-top" alt="project 1" />
+                <div class="card-body">
+                  <h5 class="card-title">Kerangka Pajeng</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="detailKerangka.html" class="btn btn-primary">Lihat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- biaya -->
+    <section id="harga">
+      <h3 class="text-center">Harga</h3>
+      <br />
+      <br />
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Jenis Kayu</th>
+            <th scope="col">Ukuran</th>
+            <th scope="col">Panjang</th>
+            <th scope="col">Diameter</th>
+            <th scope="col">Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Katik Pajeng</td>
+            <td>Kamper</td>
+            <td>Katik panjang</td>
+            <td>3,5 meter</td>
+            <td>4 cm</td>
+            <td>Rp 100.000</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Katik Pajeng</td>
+            <td>Kamper</td>
+            <td>Katik panjang</td>
+            <td>3 meter</td>
+            <td>4 cm</td>
+            <td>Rp. 80.000</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Katik Pajeng</td>
+            <td>Duren</td>
+            <td>Katik panjang</td>
+            <td>2,10 meter</td>
+            <td>3 cm</td>
+            <td>Rp 7.000</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Katik Pajeng</td>
+            <td>Duren</td>
+            <td>Katik panjang</td>
+            <td>2,40 meter</td>
+            <td>4cm</td>
+            <td>Rp 17.000</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Katik Pajeng</td>
+            <td>Sandat</td>
+            <td>Katik panjang</td>
+            <td>2,10 meter</td>
+            <td>4cm</td>
+            <td>Rp 8.000</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Katik Pajeng</td>
+            <td>Sandat</td>
+            <td>Katik panjang</td>
+            <td>2,40 meter</td>
+            <td>4cm</td>
+            <td>Rp 16.000</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Katik Pajeng</td>
+            <td>Jabon</td>
+            <td>Katik panjang</td>
+            <td>2,10 meter</td>
+            <td>4cm</td>
+            <td>Rp 6.000</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Katik Pajeng</td>
+            <td>Jabon</td>
+            <td>Katik panjang</td>
+            <td>2,40 meter</td>
+            <td>4cm</td>
+            <td>Rp 16.000</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Katik Pajeng</td>
+            <td>Campuran</td>
+            <td>Katik Kecil</td>
+            <td>70 cm</td>
+            <td>3cm</td>
+            <td>Rp 1.200</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Kerangka Pajeng</td>
+            <td>Bambu</td>
+            <td>Kecil</td>
+            <td>47 cm</td>
+            <td>1m</td>
+            <td>Rp 7.000</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Kerangka Pajeng</td>
+            <td>Bambu</td>
+            <td>Besar</td>
+            <td>55 cm</td>
+            <td>1,30m</td>
+            <td>Rp 15.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- kontak -->
+    <section id="kontak" class="kontak">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, provident.</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311709235512!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1672408575523!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#jenis">Jenis</a>
+        <a href="#harga">Harga</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Putu Jois</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
