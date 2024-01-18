@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
     <title>Katik Pajeng</title>
     <!-- Fonts -->
     <link rel="stylesheet" href="style.css" />
@@ -17,15 +19,14 @@
     <!-- style -->
     <link rel="stylesheet" href="style.css" />
     <!-- style -->
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top" style="background-color: rgb(0, 83, 127)">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <!-- <img src="./gambar/js.png" alt="Logo" width="40" class="d-inline-block align-text-top" /> -->
-          Katik<span style="color: rgb(229, 154, 24)">Pajeng</span></a
-        >
+    <nav class="navbar navbar-dark sticky-top navbar-expand-md ms-auto" style="background-color: rgb(0, 83, 127)">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> Katik<span style="color: rgb(229, 154, 24)">Pajeng</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,9 +66,111 @@
           </div>
         </div>
       </section>
-      <section class="detail bg-detail px-4 py-5" id="detail"></section>
+      <section class="detail bg-detail px-2 py-2" id="detail">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Jenis Kayu</th>
+                <th scope="col">Ukuran</th>
+                <th scope="col">Panjang</th>
+                <th scope="col">Harga</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Kamper</td>
+                <td>Katik panjang</td>
+                <td>3,5 m</td>
+                <td>Rp 100.000</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Kamper</td>
+                <td>Katik panjang</td>
+                <td>3 m</td>
+                <td>Rp. 80.000</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Duren</td>
+                <td>Katik panjang</td>
+                <td>2,10 m</td>
+                <td>Rp 7.000</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Duren</td>
+                <td>Katik panjang</td>
+                <td>2,40 m</td>
+                <td>Rp 17.000</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Sandat</td>
+                <td>Katik panjang</td>
+                <td>2,10 m</td>
+                <td>Rp 8.000</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Sandat</td>
+                <td>Katik panjang</td>
+                <td>2,40 m</td>
+                <td>Rp 16.000</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Jabon</td>
+                <td>Katik panjang</td>
+                <td>2,10 m</td>
+                <td>Rp 6.000</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Jabon</td>
+                <td>Katik panjang</td>
+                <td>2,40 m</td>
+                <td>Rp 16.000</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Campuran</td>
+                <td>Katik Kecil</td>
+                <td>70 cm</td>
+                <td>Rp 1.200</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
 
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#jenis">Jenis</a>
+        <a href="#harga">Harga</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Putu Jois</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <script>
+      feather.replace();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
