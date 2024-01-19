@@ -41,6 +41,7 @@ footer .socials {
 footer .socials a {
   color: #fff;
   margin: 1rem;
+  transition: 3s ease;
 }
 
 footer .socials a:hover,
@@ -55,13 +56,19 @@ footer .links {
 footer .links a {
   color: #fff;
   padding: 0.7rem 1rem;
+  transition: 3s ease;
+  text-decoration: none;
 }
 
 footer .credit {
   font-size: 0.8rem;
+  color: #fff;
 }
 
 footer .credit a {
-  color: var(--bg-colors);
+  color: #fff;
   font-weight: 700;
+}
+#kerangka {
+  margin-top: 50px;
 }
