@@ -43,27 +43,22 @@
             <label for="alamat" class="form-label">Alamat</label>
             <textarea type="text" class="form-control" id="alamat" rows="3" required></textarea>
           </div>
+
           <div class="mb-3 row">
-            <label for="" class="col-sm-2 col-form-label">Pilih Salah satu</label>
+            <label for="produk" class="col-sm-2 col-form-label">Pilih jenis kayu</label>
             <div class="col-sm-10">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="katik" name="jenis[]" id="katik" />
-                <label class="form-check-label" for="katik"> Katik pajeng </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="kerangka" name="jenis[]" id="kerangka" />
-                <label class="form-check-label" for="kerangka"> kerangka pajeng panjang </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="katikkecil" name="jenis[]" id="katikkecil" />
-                <label class="form-check-label" for="katikkecil"> Katik pajeng kecil </label>
-              </div>
+              <select class="form-select" aria-label="Default select example" id="produk" name="produk" required>
+                <option value=" ">- Pilih -</option>
+                <option value="1">katik pajeng panjang</option>
+                <option value="2">katik pajeng kecil</option>
+                <option value="3">kerangka pajeng</option>
+              </select>
             </div>
           </div>
           <div class="mb-3 row">
-            <label for="prodi" class="col-sm-2 col-form-label">Pilih jenis kayu</label>
+            <label for="jenis" class="col-sm-2 col-form-label">Pilih jenis kayu</label>
             <div class="col-sm-10">
-              <select class="form-select" aria-label="Default select example" id="prodi" name="prodi" required>
+              <select class="form-select" aria-label="Default select example" id="jenis" name="jenis" required>
                 <option value=" ">- Pilih jenis kayu -</option>
                 <option value="1">Kamper 3,5 m</option>
                 <option value="2">Kamper 3 m</option>
@@ -78,7 +73,13 @@
               </select>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="mb-3 row">
+            <label for="date" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-outline-primary">Kirim</button>
+              <button type="reset" class="btn btn-outline-secondary">Reset</button>
+            </div>
+          </div>
         </form>
       </div>
     </section>
